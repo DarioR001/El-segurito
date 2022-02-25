@@ -1,0 +1,177 @@
+body {
+  background-image: url("assets/fondopagina.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar ul li a:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  opacity: 0.5;
+}
+
+@media (min-width: 700px) {
+  #carouselExampleControls {
+    width: 40rem;
+    margin: auto;
+  }
+  #carouselExampleControls img {
+    height: 25rem;
+  }
+}
+
+section tr:hover td {
+  color: #eb9616;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+  font-size: 110%;
+  font-weight: bolder;
+}
+
+.parralax {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url("assets/parralax.jpg");
+  background-attachment: fixed;
+}
+
+.parralax h3 {
+  text-decoration: underline;
+}
+
+.tablaInd {
+  text-align: left;
+  border: solid 0.1rem grey;
+  width: 40rem;
+}
+
+.nav-item, .dropdown-item {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+
+.subtituloseg {
+  padding: 2rem 0rem 1rem 0rem;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.tablaSeg {
+  text-align: left;
+  border: solid 0.1rem grey;
+  width: 40rem;
+}
+
+.tablaCon {
+  text-align: center;
+  border: solid 0.1rem grey;
+  width: 27rem;
+  height: 25rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+form {
+  text-align: center;
+  text-align: center;
+  border: solid 0.1rem grey;
+  width: 27rem;
+  height: 25rem;
+  padding: 1rem;
+  background-color: #EEEEEE;
+}
+
+form legend {
+  font-weight: bolder;
+  padding: 0%;
+}
+
+.tableCon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.Face, .Insta, .Twit {
+  background-image: linear-gradient(135deg, #008aff, #008aff);
+  border-radius: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 3rem;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  margin: auto;
+  z-index: 2;
+}
+
+.Face:hover, .Insta:hover, .Twit:hover {
+  color: #fff;
+}
+
+.Face .bn39span, .Insta .bn39span, .Twit .bn39span {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.Face:hover .bn39span, .Insta:hover .bn39span, .Twit:hover .bn39span {
+  background: transparent;
+}
+
+.Insta {
+  background-image: linear-gradient(135deg, #5e18df, #5e18df);
+}
+
+.Twit {
+  background-image: linear-gradient(135deg, #2518df, #2518df);
+}
+
+.facebook {
+  color: #008aff;
+  text-decoration: none;
+}
+
+.instagram {
+  color: #5e18df;
+  text-decoration: none;
+}
+
+.twitter {
+  color: #2518df;
+  text-decoration: none;
+}
+
+footer button {
+  border: solid grey 0.1rem;
+}
+/*# sourceMappingURL=styles.css.map */
